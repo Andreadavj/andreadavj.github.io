@@ -24,7 +24,11 @@ body{
 }
 .imagen-princial{
     color: black;
-    background-repeat: no-repeat;
+    background-color: rgb(160, 155, 156);
+    /* background-repeat: no-repeat; */
+}
+.titulo-1{
+    background-color: rgb(160, 155, 156);
 }
 
 .tamaño-letra{

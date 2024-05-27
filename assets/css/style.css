@@ -1,10 +1,26 @@
 body{
-    background-color: rgb(153, 132, 138);
+    background: linear-gradient(
+        90deg,
+        rgba(203,18,133,1)0%,
+        rgba(80,49,145,1)70%
+     
+        );
     color: aliceblue;
     min-height: 100vh;
 }
-.navbar-color{
-    background-color: rgb(153, 132, 138);
+.img-logo{
+    width: 55px;
+}
+.navbar-main{
+    background: linear-gradient(
+        90deg,
+        rgba(203,18,133,1)0%,
+        rgba(80,49,145,1)70%
+     
+        );
+}
+.navbar-main .active{
+    text-decoration: underline wavy var(--color-purple);
 }
 .fondo-sobremi{
     background-image: url(../img/fondo.jpg);
@@ -28,18 +44,28 @@ body{
     /* background-repeat: no-repeat; */
 }
 .titulo-1{
-    background-color: rgb(160, 155, 156);
+    
 }
 
 .tamaño-letra{
     font-size: medium;
 }
 .fondo-icono{
-    background-color: rgb(160, 155, 156);
+    background: linear-gradient(
+        90deg,
+        rgb(207, 102, 165)0%,
+        rgb(60, 29, 128)70%
+     
+        );
 }
 
 .footer{
-    background-color: rgb(153, 132, 138);
+    background: linear-gradient(
+        90deg,
+        rgba(203,18,133,1)0%,
+        rgba(80,49,145,1)70%
+     
+        );
     bottom: 0;
     width: 100%;
 }

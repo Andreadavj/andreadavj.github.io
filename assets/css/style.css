@@ -16,11 +16,10 @@ body{
         90deg,
         rgba(203,18,133,1)0%,
         rgba(80,49,145,1)70%
-     
         );
 }
 .navbar-main .active{
-    text-decoration: underline wavy var(--color-purple);
+    text-decoration: underline wavy var(--color-rgba(203,18,133,1));
 }
 .fondo-sobremi{
     background-image: url(../img/fondo.jpg);

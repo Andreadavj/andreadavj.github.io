@@ -23,7 +23,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg ps-5 navbar-main">
+    <nav class="navbar navbar-expand-lg ps-5 text-white navbar-main">
       <div class="container-fluid">
         <a class="navbar-brand fs-3" href="#">
           <img src="./assets/img/android-chrome-192x192.png" class=" img-logo" alt="logo">
@@ -41,19 +41,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+            <li class="nav-item text-white">
+              <a class="nav-link text-white active fw-bold" aria-current="page" href="index.html"
                 >CV</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#secsobremi">Sobre mi</a>
+              <a class="nav-link text-white fw-bold" href="#secsobremi">SOBRE MI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sec">Portafolio</a>
+              <a class="nav-link text-white fw-bold" href="#seced">EDUCACON</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#seccon">Contacto</a>
+              <a class="nav-link text-white fw-bold" href="#sec">PORTAFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#seccon">CONTACTO</a>
             </li>
           </ul>
         </div>
@@ -62,14 +65,14 @@
     <section id="secsobremi" class="d-flex justify-content-center text-dark fondo-sobremi">
       <div  class="container">
         <div class="row">
-          <div class="col-md-6 my-5 d-flex align-items-center contenido">
-            <p  class="py-5">
-              Sobre mi <br />
+          <div class="col-md-6 my-5 d-flex text-white align-items-center contenido">
+            <p  class="py-5 ">
+              <span class="fw-bold">SOBRE MI</span> <br>
               Soy Doris Valverde Jara tengo 29 años, estudiate de frond end,
               creando nuevos proyectos con el objetivo de tener las capacidades
-              necesarias en el rubro de programacion. <br />
+              necesarias en el rubro de programación. <br />
               Tengo experiencia en trabajo en equipo, debido a mi profesion
-              Ingenieria en construccion civil.
+              Ingeniero constructor.
             </p>
             <img
               src="./assets/img/fotoandrea.png.PNG"
@@ -81,15 +84,32 @@
       </div>
     </section>
 
-    <div id="sec" class="titulo-principal text-dark text-center py-5">
-      <h1 class="titulo-1 py-2">Portafolio</h1>
+  </section>
+  <section id="seced" class="p-4">
+    <div class="container mt-4 mb-5">
+      <h2 class="display-3 fw-bold my-4 text-center">Educación</h2>
+      <div class="box roboto-medium text-body mt-3">
+        <h3>
+          2014 - 2018 Universidad Tecnolofica de Chile INACAP
+        </h3>
+        <p>Jefe de oficina Técnica</p>
+      </div>
+      <div class="box roboto-medium text-body">
+        <h3>2024 Academia Desafío Latam</h3>
+        <p>Estudiante en proceso</p>
+      </div>
+    </div>
+  </section>
+
+    <div id="sec" class="titulo-principal text-white text-center py-5">
+      <h1 class=" display-3 fw-bold py-2">Portafolio</h1>
     </div>
     <!-- primera imagen -->
     <div class="container text-center text-dark tamaño-letra">
-      <div class="row">
+      <div class="row ">
         <div class="col-xs-12 col-md-6 col-lg-4 px-4 my-2 mx-0">
           <div class="card">
-            <img src="./assets/img/html.PNG" class="card-img-top" alt="html" />
+            <img src="./assets/img/cv1.png" class="card-img-top" alt="html" />
             <div class="card-body">
               <h2>Primer Desafio</h2>
               <p class="card-text">Curriculum vitae en HTML</p>
@@ -137,7 +157,7 @@
         <!-- tercer imagen -->
         <div class="col-xs-12 col-md-6 col-lg-4 px-4 my-2 mx-0">
           <div class="card">
-            <img src="./assets/img/" class="card-img-top" alt="flexbox" />
+            <img src="./assets/img/github.png" class="card-img-top" alt="flexbox" />
             <div class="card-body">
               <h2>Quinto desafio</h2>
               <p class="card-text">Curriculum Vitae</p>
@@ -147,8 +167,8 @@
       </div>
     </div>
 
-    <section id="seccon" class="text-dark text-center fondo-icono">
-      <h2 class="titulo-iconos">Contacto</h2>
+    <section id="seccon" class="text-white text-center fondo-icono">
+      <h2 class="titulo-iconos fw-bold">Contacto</h2>
       <ul class="iconos">
         <li>
           <i class="fa-solid fa-square-envelope fa-2x"> </i>
@@ -169,7 +189,7 @@
       </ul>
     </section>
 
-    <footer class="text-center text-dark footer px-0 py-3">
+    <footer class="text-center text-white footer px-0 py-3">
       <p>Realizado por Doris Andrea Valverde Jara - 2024 ©</p>
     </footer>
 

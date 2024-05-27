@@ -18,11 +18,14 @@ body{
         rgba(80,49,145,1)70%
         );
 }
+a{
+    color: inherit;
+}
 .navbar-main .active{
-    text-decoration: underline wavy var(--color-rgba(203,18,133,1));
+    text-decoration: underline wavy var(--color-pink);
 }
 .fondo-sobremi{
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/fondo3.jpg);
     max-width: 100%;
     background-size: cover;
    
@@ -36,14 +39,6 @@ body{
     width: 300px;
     height: 350px;
     display: grid;
-}
-.imagen-princial{
-    color: black;
-    background-color: rgb(160, 155, 156);
-    /* background-repeat: no-repeat; */
-}
-.titulo-1{
-    
 }
 
 .tamaño-letra{

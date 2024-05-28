@@ -31,14 +31,12 @@ a{
    
     flex-direction: row;
 }
-.contenido{
-    display: flex;
-    justify-content: center;
-}
+
 .imagen-andrea{
     width: 300px;
     height: 350px;
     display: grid;
+    border: solid 3px blanchedalmond;
 }
 
 .tamaño-letra{

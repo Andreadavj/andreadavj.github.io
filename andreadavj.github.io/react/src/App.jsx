@@ -1,30 +1,25 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
-import "./App.css";
+import Hero from "./components/hero"
+import Navbar from "./components/navbar"
+import About from "./components/about"
+import Skills from "./components/skills"
+import Portfolio from "./components/portfolio"
+import Contact from "./components/contact"
+import Footer from "./components/footer"
+import { ThemeProvider } from "./components/theme-provider"
+import './app.css';
 
-const App = () => {
+export default function App() {
   return (
-    <Router>
-      <div className="app">
+    <ThemeProvider defaultTheme="dark" storageKey="theme">
+      <main className="min-h-screen bg-gradient-to-b from-background to-background/80">
         <Navbar />
-        <main className="content">
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
+        <Hero />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Contact />
         <Footer />
-      </div>
-    </Router>
-  );
-};
-
-export default App;
+      </main>
+    </ThemeProvider>
+  )
+}

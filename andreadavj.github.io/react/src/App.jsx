@@ -7,6 +7,7 @@ import Contact from "./components/contact"
 import Footer from "./components/footer"
 import { ThemeProvider } from "./components/theme-provider"
 import './app.css';
+import './styles/tailwind.css';  // Correcto
 
 export default function App() {
   return (
